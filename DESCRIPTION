@@ -1,6 +1,6 @@
 Package: MultiOverlap
 Type: Package
-Title: To compute the point and bootstrap confidence intervals of the multivariate containment and overlap indices for normal populations 
+Title: To compute the point and bootstrap confidence intervals estimates of the multivariate containment and overlap indices for normal populations 
 Version: 0.1.0
 Author: Raju Dey
 Maintainer: Raju Dey <rajudey.cob1997@gmail.com>
