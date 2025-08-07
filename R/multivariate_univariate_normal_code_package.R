@@ -227,6 +227,10 @@ MVN_Overlap<-function(data1,data2){
   ##bootstrap confidence interval for J
   lower_J<-J_hat+q1_J             #lower limit of the bootstrap CI of J
   upper_J<-J_hat+q2_J             #upper limit of the bootstrap CI of J
+  if(upper_J>1)
+  {
+    upper_J<-1
+  }
 
   ##result
   cat("*********************************************\n")
